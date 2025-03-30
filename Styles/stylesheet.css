@@ -37,7 +37,7 @@ ul a/* editing navigation menu content */
 {
     text-align: center;
     background-color:   rgb(0, 153, 255);
-    width: 100%;
+    width: 100vw;
     padding: 10px;
    
 }
@@ -47,13 +47,39 @@ ul a/* editing navigation menu content */
     color: rgb(0, 153, 255);
 }
 
+#events
+{
+    text-align: left;
+    color: rgb(0, 153, 255);
+    padding: 30px;
+    margin-left: 20%;
+    margin-bottom: 0px;
+}
+
+#pic1
+{
+    display:inline;
+    width: 350px;
+    height: 250px;
+    margin-left: 17%;
+    border-radius: 10px;
+}
+
+#description
+{
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  background-color:   rgb(0, 153, 255);
+  border-radius: 10px;
+}
+
 #mainPic
 {
     width: 60%;
     height: 400px;
-    margin-right: 20%;
     margin-left: 20%;
-    border: 1px solid transparent;
+    border: 30px solid transparent;
 }
 
 #pics
@@ -66,6 +92,13 @@ ul a/* editing navigation menu content */
     border-radius: 10px;
 }
 
+.event {
+  display: block;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
 p
 {
     text-align: center;
@@ -74,6 +107,16 @@ p
     margin-right: 20px;
     padding: 20px;
 }
+
+.pi
+{
+    text-align: left;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
 #mainText
 {
     text-align: left ;
@@ -93,7 +136,6 @@ body, html/* the main body of the website*/
     justify-content: center ;
     gap: 20px;
     padding: 20px;
-    border: 2px blue;
   }
 
   .basketball {
@@ -178,11 +220,10 @@ button:hover {
 
 footer /* bottom*/
 {
-    position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(0, 153, 255);
-    padding: 0.5px;
+    padding: 0.1px;
 }
 footer p
 {
