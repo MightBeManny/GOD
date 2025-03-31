@@ -100,19 +100,54 @@ nav ul li a
   white-space: normal;
 }
 
+.SportsEvent {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 80%;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.sportspics {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.event-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.book-now {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 50px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.book-now:hover {
+  background-color: #0056b3;
+}
+
 #subhead
 {
   text-align: center;
   color: rgb(0, 153, 255);
-}
-
-#events
-{
-  text-align: left;
-  color: rgb(0, 153, 255);
-  padding: 30px;
-  margin-left: 20%;
-  margin-bottom: 0px;
 }
 
 #pic1
@@ -178,21 +213,6 @@ body, html/* the main body of the website*/
   background-color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
-}
-
-.sportsEvent {
-  display: block;
-  justify-content: center;
-  background: white; 
-  border: 1px solid #ddd; /* Adds a light gray border around the event */
-  border-radius: 8px; 
-  padding: 20px; 
-  margin-bottom: 20px; 
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  width: 90%; /* Makes the container take up 90% of the width of the page */
-  max-width: 1200px; /* Limits the maximum width of the container */
-  margin: 20px auto; /* Adds space around the container and centers it */
-
 }
 
 #bg-video {
