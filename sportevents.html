@@ -1,53 +1,51 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="desciption" content="Sports website that allows you to book events">
-            <meta name="keywords" content="Sports, Events, html5, Website, css">
-            <title>Sportz Search</title>
-            <link rel="stylesheet" href="Styles/stylesheet.css">
-        </head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Sports website that allows you to book events">
+        <meta name="keywords" content="Sports, Events, html5, Website, css">
+        <title>Sportz Search</title>
+        <link rel="stylesheet" href="Styles/stylesheet.css">
+    </head>
 
-        <body>
-            <header>
-                <div class="header-container">
-                    <div class="logo-title">
-                            <img style="float: left; margin-right: 10px;" src="Images/logo(black).png" alt="logo" width="80">
-                        <h1>Sportz Search</h1>
-                    </div>
-                    <nav>
-                        <ul>
-                                <li> <a href="index.html"> Home</a></li>
-                                <li> <a href="sportevents.html"> Sport Events</a></li>
-                                <li> <a href="aboutus.html"> Contact Us</a></li>  
-                        </ul>
-                    </nav>
-                    <p class="class-project">This is a class project</p>
+    <body>
+        <header>
+            <div class="header-container">
+                <div class="logo-title">
+                    <img style="float: left; margin-right: 10px;" src="Images/logo(black).png" alt="logo" width="80">
+                    <h1>Sportz Search</h1>
                 </div>
-            </header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sportevents.html">Sport Events</a></li>
+                        <li><a href="aboutus.html">Contact Us</a></li>  
+                    </ul>
+                </nav>
+                <p class="class-project">This is a class project</p>
             </div>
-            <main>
-                <div class="SportsEvent">
-                    <img src="Images/investec.jpg" alt="Rugby" id="sportpics">
-                        <p><strong>Teams:</strong> Leinster Rugby vs Harlequins</p>
-                        <p><strong>Date & Time:</strong> April 5, 2025</p>
-                        <p><strong>Location:</strong> Croke Park, Dublin</p>
-                        <a href="booknow.html" class="book-now"><strong>Book Now</strong></a>
-                    </div>
-                </div>
+        </header>
+        
+        <main>
+            <div class="SportsEvent">
+                <img src="Images/investec.jpg" alt="Rugby" id="sportpics">
+                <p><strong>Teams:</strong> Leinster Rugby vs Harlequins</p>
+                <p><strong>Date & Time:</strong> April 5, 2025</p>
+                <p><strong>Location:</strong> Croke Park, Dublin</p>
+                <a href="booknow.html" class="book-now"><strong>Book Now</strong></a>
+            </div>
 
-                <div class="SportsEvent">
-                    <img src="Images/basketballteam.jpg" alt="basketball" id="sportpics">
-                    <p><strong>Event:</strong> AIG U14 Boys All-Ireland Club Championship</p>
-                    <p><strong>Date & Time:</strong> April 5-6, 2025</p>
-                    <p><strong>Location:</strong> Gormanston, Co.Meath</p>
-                    <a href="booknow.html" class="book-now" ><strong>Book Now</strong></a>
-                    </div>
-                </div>
-            </main>
-                <footer>
-                    <!--This comment is for the <footer> element after the main element on the page-->
-                    <p> &copy; 2025 Sportz Search </p>
-                </footer>
-        </body>
-    </html>
+            <div class="SportsEvent">
+                <img src="Images/basketballteam.jpg" alt="Basketball" class="sportpics">  <!-- Changed ID to class -->
+                <p><strong>Event:</strong> AIG U14 Boys All-Ireland Club Championship</p>
+                <p><strong>Date & Time:</strong> April 5-6, 2025</p>
+                <p><strong>Location:</strong> Gormanston, Co.Meath</p>
+                <a href="booknow.html" class="book-now"><strong>Book Now</strong></a>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Sportz Search</p>
+        </footer>
+    </body>
+</html>
