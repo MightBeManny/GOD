@@ -85,8 +85,8 @@ nav ul li a
 .description
 {
   background-color: rgb(0, 153, 255);
-  width: 70%;
-  margin-left: 15%;
+  width: 90%;
+  margin-left: 5%;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
@@ -100,6 +100,58 @@ nav ul li a
   max-width: 70%;
   margin: 0 auto;
   white-space: normal;
+}
+
+.recentevent
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800%;
+  margin-left: 5%;
+  padding: 10px;
+}
+
+.eventtext
+{
+  width: 30%;
+  height: 400px;
+  margin-left: 0%;
+  border: 1px solid transparent;
+  padding: 20px;
+  background-color: rgb(0, 153, 255);
+  border-radius: 10px;
+}
+
+.eventtext h2
+{
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 25%;
+  padding: 10px;
+  color: white;
+}
+
+.eventtext p
+{
+  text-align: justify;
+  margin-left: 0%;
+  color: white;
+}
+
+.eventvideo
+{
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+}
+
+iframe 
+{
+  width: 100%;
+  height: 350px; /* Adjust height if needed */
+  border-radius: 10px;
 }
 
 .SportsEvent {
@@ -216,37 +268,6 @@ body, html/* the main body of the website*/
   margin: 0;
   padding: 0;
 }
-
-.recentevent
-{
-  width: 50%;
-  height: 400px;
-  margin-left: 40%;
-  border: 1px solid transparent;
-  padding: 20px;
-}
-
-.recenttext
-{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 40;
-  margin: auto;
-  padding: 20px;
-}
-
-.recenttext h2
-{
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.recenttext p
-{
-  text-align: justify;
-}
-
 
 #bg-video {
   width: 60%;
